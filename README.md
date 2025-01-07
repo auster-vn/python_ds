@@ -1,3 +1,17 @@
+# Movie Recommendation System
+
+This is a Flask-based web application that provides movie recommendations based on user input. The application uses data from TMDb and a pre-trained model to suggest similar movies.
+
+## Features
+
+- Search for movies by title
+- Filter search results by minimum rating
+- View movie details including poster, rating, and runtime
+- View team members
+- Access project documents
+
+## Project Structure
+
 
 ## Setup
 
@@ -7,10 +21,10 @@
     cd MOVIE-RECOMMENDATION-SYSTEM
     ```
 
-2. Create and activate a virtual environment:
+2. Create and activate a Conda environment:
     ```sh
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    conda create --name movie-recommender python=3.8
+    conda activate movie-recommender
     ```
 
 3. Install the required packages:
@@ -18,7 +32,7 @@
     pip install -r requirements.txt
     ```
 
-4. Set up the [.env](http://_vscodecontentref_/15) file with your TMDb API key:
+4. Set up the [.env](http://_vscodecontentref_/16) file with your TMDb API key:
     ```
     API_KEY=your_tmdb_api_key
     ```
