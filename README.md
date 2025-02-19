@@ -17,7 +17,7 @@ This is a Flask-based web application that provides movie recommendations based 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/auster-vn/MOVIE-RECOMMENDATION-SYSTEM.git
+    git clone https://github.com/auster-vn/python_ds
     cd MOVIE-RECOMMENDATION-SYSTEM
     ```
 
@@ -50,13 +50,6 @@ This is a Flask-based web application that provides movie recommendations based 
 - Use the rating filter to narrow down the search results.
 - Click on a movie poster to view more details about the movie.
 
-## Team Members
-
-- Tran Chau Phu (MSSV: 22110158)
-- Ho Minh Quan (MSSV: 22110170)
-- Le Nguyen Duc Nam (MSSV: 22110123)
-- Le Thi Kim Nga (MSSV: 22110124)
-- Tran Nguyen Thanh Phong (MSSV: 22110155)
 
 ## License
 
